@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'moneybird/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "moneybird"
+  spec.name          = "moneybird-client"
   spec.version       = Moneybird::VERSION
   spec.authors       = ["ramones"]
   spec.email         = ["ramonvansprundel@gmail.com"]

@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in moneybird.gemspec
+# Specify your gem's dependencies in the gemspec
 gemspec
 
 group :coverage do
