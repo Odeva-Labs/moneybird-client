@@ -10,7 +10,7 @@ Ruby client for the [Moneybird REST API](https://developer.moneybird.com/). Supp
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'moneybird-client', require: 'moneybird'
+gem 'moneybird-client'
 ```
 
 And then execute:
