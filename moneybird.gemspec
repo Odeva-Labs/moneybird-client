@@ -6,12 +6,12 @@ require 'moneybird/version'
 Gem::Specification.new do |spec|
   spec.name          = "moneybird"
   spec.version       = Moneybird::VERSION
-  spec.authors       = ["Maarten van Vliet"]
-  spec.email         = ["maartenvanvliet@gmail.com"]
+  spec.authors       = ["ramones"]
+  spec.email         = ["ramonvansprundel@gmail.com"]
 
   spec.summary       = %q{Library to interface with Moneybird API}
   spec.description   = %q{Library to interface with Moneybird API: http://developer.moneybird.com/}
-  spec.homepage      = "https://github.com/odeva-labs/moneybird"
+  spec.homepage      = "https://codeberg.org/odeva/moneybird"
   spec.license       = "MIT"
 
   spec.required_ruby_version = ">= 3.1.0"
@@ -20,6 +20,11 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
+  spec.metadata["rubygems_mfa_required"] = "true"
 
   spec.add_dependency "activesupport", '>= 7.0'
   spec.add_dependency "faraday", ">= 2.0.1"

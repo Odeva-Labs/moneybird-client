@@ -1,4 +1,4 @@
-# Moneybird [![CI](https://github.com/van-sprundel/moneybird/actions/workflows/ruby.yml/badge.svg)](https://github.com/van-sprundel/moneybird/actions/workflows/ruby.yml) [![codecov](https://codecov.io/gh/van-sprundel/moneybird/graph/badge.svg)](https://codecov.io/gh/van-sprundel/moneybird)
+# Moneybird [![CI](https://codeberg.org/odeva/moneybird/actions/workflows/ruby.yml/badge.svg)](https://codeberg.org/odeva/moneybird/actions/workflows/ruby.yml)
 
 Ruby client for the [Moneybird REST API](https://developer.moneybird.com/). Supports both personal API tokens and OAuth2 authentication.
 
@@ -10,7 +10,7 @@ Ruby client for the [Moneybird REST API](https://developer.moneybird.com/). Supp
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'moneybird', github: 'odeva-labs/moneybird', tag: 'v0.11.0'
+gem 'moneybird', require: 'moneybird'
 ```
 
 And then execute:
@@ -102,7 +102,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/van-sprundel/moneybird. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on Codeberg at https://codeberg.org/odeva/moneybird. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
