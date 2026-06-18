@@ -7,5 +7,5 @@ gemspec
 
 group :coverage do
   gem "simplecov", "~> 0.22"
-  gem "simplecov-cobertura", "~> 3.0"
+  gem "simplecov-cobertura", "~> 3.1", ">= 3.1.2"
 end
