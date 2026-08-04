@@ -6,6 +6,6 @@ source 'https://rubygems.org'
 gemspec
 
 group :coverage do
-  gem "simplecov", "~> 0.22"
-  gem "simplecov-cobertura", "~> 3.2"
+  gem "simplecov", "~> 1.0"
+  gem "simplecov-cobertura", "~> 4.0"
 end
